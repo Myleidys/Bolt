@@ -1,3 +1,10 @@
+.titulo-ofertas-contenedor {
+    color: #12B0AF;
+    margin: 1em 0;
+    padding-left: .8em;
+    border-left: 3px solid #12B0AF;
+}
+
 .carta-contenedor {
     width: 300px;
     height: 400px;
