@@ -8,61 +8,67 @@
     <link rel="shortcut icon" href="../src/imagesindex/Icono.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/Ofertas.css">
+
     <link rel="stylesheet" href="../css/Styleindex.css">
+    <link rel="stylesheet" href="../css/Ofertas.css">
+
     <script src="https://kit.fontawesome.com/fb1e1c83c5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <header class="sticky-top">
-
-        <div class="row justify-content-between nav">
-            <div class="col-4 bg-white">
-                <a class="navbar-brand" href="index.html">
-                    <img class=" imglogo" src="../src/imagesindex/Logo.png" alt="logo">
-                </a>
-                <!-- <a class="navbar-brand" href="index.html">Prueba logo</a> -->
-            </div>
-            <nav class="col-8 navbar navbar-expand-lg navbar-dark ">
-                <div class=" ml-auto mr-5 ">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarResponsive">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="#">
-                                    <i class="fas fa-search" style="font-size: 25px;"></i>
-                                </a>
-                            </li>
-                            <li class=" nav-item">
-                                <a class="nav-link" href="#">
-                                    <i class="fas fa-user-circle" style="font-size: 25px;"></i>
-                                </a>
-
-                            </li>
-
-                        </ul>
-                    </div>
+        <div class="container-fluid">
+            <div class="row justify-content-between nav">
+                <div class="col-8 col-md-4 bg-white d-flex justify-content-center align-items-center divsito">
+                    <a class="navbar-brand ml-auto" href="../../index.html">
+                        <img class="imglogo" id="imglogonav" src="../src/images index/Logo.png" alt="logo">
+                    </a>
+                    <!-- <a class="navbar-brand" href="index.html">Prueba logo</a> -->
                 </div>
-            </nav>
+                <nav
+                    class="col-4 col-md-8 navbar navbar-expand-lg navbar-dark justify-content-center align-items-center ">
+                    <div class="ml-auto mr-2">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarResponsive">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Ofertas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Marcas Top</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contacto</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-search" style="font-size: 25px;"></i>
+                                    </a>
+                                </li>
+                                <li class=" nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-user-circle" style="font-size: 25px;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
-
     </header>
 
     <main>
@@ -125,8 +131,7 @@
                 <div class="carta-contenedor d-flex flex-column justify-content-between">
 
                     <div class="align-self-center">
-                        <img class="imagen-carta" src="../src/imagesindex/OfertaImagenes/nutranuggets.png"
-                            alt="comida">
+                        <img class="imagen-carta" src="../src/imagesindex/OfertaImagenes/nutranuggets.png" alt="comida">
                     </div>
                     <div class="ml-2 align-self-start">
                         <h3 class="titulo-comida">Nutra Nuggets</h3>
@@ -306,20 +311,17 @@
         </div>
     </main>
 
-    <footer>
-        <div class="row  justify-content-between nav ">
-
-            <div class=" col-12 col-md-4 bg-white">
+    <footer class="container-fluid">
+        <div class="row justify-content-between nav divsito">
+            <div class="col-12 col-md-4 bg-white d-flex justify-content-center align-items-center">
                 <a class="navbar-brand" href="index.html">
-                    <img class="imglogo" src="../src/imagesindex/Logo.png" alt="logo">
+                    <img class="imglogo" src="../src/images index/Logo.png" alt="logo">
                 </a>
-
             </div>
-
             <div class="col-12 col-md-8 navbar">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row ml-auto">
-                        <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-12 justify-content-center align-items-center ">
                             <ul class="social-icons d-flex">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -329,8 +331,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row ">
+                <div class="container-fluid contacto">
+                    <div class="row">
                         <div class="col-12 col-md-6">
                             <ul class="footer-links">
                                 <li><a href="#">Acerca de Boll</a></li>
@@ -340,11 +342,11 @@
 
                             </ul>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 align-self-center ">
 
                             <ul class="footer-links">
                                 <li>Contáctanos</li>
-                                <li>Teléfono: (310) 847-6324</li>
+                                <li>Teléfono: <small>(310)847-6324</small></li>
                                 <li>boll@gmail.com</li>
 
                             </ul>
@@ -352,13 +354,9 @@
                     </div>
                     <hr>
                 </div>
-            </div> <!-- div de cierre agregado -->
-        </div> <!-- div de cierre agregado -->
+            </div>
+        </div>
     </footer>
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
